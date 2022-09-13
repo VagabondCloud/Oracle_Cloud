@@ -2,7 +2,7 @@ import { ethers, Wallet } from "ethers";
 import Zmb from "../hardhut/artifacts/contracts/zombieContract.sol/ZombieMint.json";
 import Car from "../hardhut/artifacts/contracts/carContract.sol/CarMint.json";
 
-    const zombieContract = "0x7AB646DDC4F9b86d14651018f794ec3e5B750f38";
+    const zombieContract = "0x94F3a107C1b452b95F90740704e9771BC289cFf3";
     const carContract = "0x8cfF3c6EB893910F7Deba56C50fc22deD059d8Ba";
 
     var url = "https://data-seed-prebsc-1-s1.binance.org:8545/";    
