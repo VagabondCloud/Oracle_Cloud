@@ -3,7 +3,7 @@ import Zmb from "../hardhut/artifacts/contracts/zombieContract.sol/ZombieMint.js
 import Car from "../hardhut/artifacts/contracts/carContract.sol/CarMint.json";
 
     const zombieContract = "0x7AB646DDC4F9b86d14651018f794ec3e5B750f38";
-    const carContract = "0xE717BDAe3Eb2E4Fb73Fe8021881D626e3557242B";
+    const carContract = "0x8cfF3c6EB893910F7Deba56C50fc22deD059d8Ba";
 
     var url = "https://data-seed-prebsc-1-s1.binance.org:8545/";    
     var customHttpProvider = new ethers.providers.JsonRpcProvider(url);
@@ -32,8 +32,6 @@ import Car from "../hardhut/artifacts/contracts/carContract.sol/CarMint.json";
             console.log(user);
             doUrThang(user);
     });
-
-    // _-------------------------------------------------------->>>---------->>>>
 
     // Car functions------------------------------------& listeners ig ----------------<<>>>>
         // minting function.
