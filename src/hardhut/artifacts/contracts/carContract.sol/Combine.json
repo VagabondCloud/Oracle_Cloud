@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Combine",
+  "sourceName": "contracts/carContract.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220fb6e9bfb7a142fbbb064d8da36407758c0c86bf8ea14743609e3b8b208d0568e64736f6c63430008090033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220fb6e9bfb7a142fbbb064d8da36407758c0c86bf8ea14743609e3b8b208d0568e64736f6c63430008090033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
