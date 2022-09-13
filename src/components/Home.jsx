@@ -10,8 +10,7 @@ import Car from "../hardhut/artifacts/contracts/carContract.sol/CarMint.json";
     const wallet = new Wallet("31b40152dda95b196bfd5723636bb001c06554c2709263cdfc43c1a26c86be5e", customHttpProvider);  
 
     const zmbRouter = new ethers.Contract(zombieContract, Zmb.abi, wallet);
-    
-    const carRouter = new ethers.Contract(carcontract, Car.abi, wallet);
+    const carRouter = new ethers.Contract(carContract, Car.abi, wallet);
 
     function Oracle() {
 
