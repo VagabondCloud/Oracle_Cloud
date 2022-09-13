@@ -2,8 +2,8 @@ import { ethers, Wallet } from "ethers";
 import Zmb from "../hardhut/artifacts/contracts/zombieContract.sol/ZombieMint.json";
 import Car from "../hardhut/artifacts/contracts/carContract.sol/CarMint.json";
 
-    const zombieContract = "0x9aEb5b69BEF219059671A9563d31889eD1b0cb6E";
-    const carContract = "0x8cfF3c6EB893910F7Deba56C50fc22deD059d8Ba";
+    const zombieContract = "0xaDa17Ce25FE48911C1C6dEdD461f25bE67F94d8F";
+    const carContract = "0xb74449315543DB720d21EA7be476ac0192F13D83";
 
     var url = "https://data-seed-prebsc-1-s1.binance.org:8545/";    
     var customHttpProvider = new ethers.providers.JsonRpcProvider(url);
